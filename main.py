@@ -19,7 +19,7 @@ with left_column:
     col3.metric("Revenue", "8.8M", "0.5%")
     col4.metric("Gross Margin %", "56.4%", "-0.9%")
 
-    CHART_HEIGHT = 400  # Adjust this value as needed
+    CHART_HEIGHT = 400
 
     tablecol_left_column, left_1_column, left_2_column, left_3_column, left_4_column = st.columns([2, 1, 1, 1, 1])
 
