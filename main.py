@@ -9,8 +9,11 @@ st.title("Financial Dashboard")
 left_column, right_column = st.columns([3, 2])
 
 # ------------------------------------------------------------
+
 # LEFT COLUMN
+
 # ------------------------------------------------------------
+
 with left_column:
     # KPI Metrics
     col1, col2, col3, col4 = st.columns(4)
@@ -160,7 +163,9 @@ with left_column:
             st.plotly_chart(fig, use_container_width=True)
 
 # ------------------------------------------------------------
+
 # RIGHT COLUMN
+
 # ------------------------------------------------------------
 
 with right_column:
